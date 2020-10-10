@@ -30,28 +30,30 @@
                         <form class="cert__form">
                             <input class="cert__input" type="text" id="fname" placeholder="Certificate Of...."><br>
                             <input class="cert__input" type="text" id="lname" placeholder="Presented By"><br>
-                            <input class="cert__input" type="checkbox" class="check"><span>Send Certificate To Recipient
-                                By Mail</span>
+
+                            <input type="checkbox" name="c1" id="c1" class="cert__form-check">
+                            <label for="c1">Send Certificates To Recipients By Mail</label>
+                            <input input type="file" accept="image/*" id="imgFile" class="cert__form-logo" />
+                            <label for="imgFile" class="imgf">Upload Company Logo</label>
+                            <input type="file"
+                                accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                                id="excelFile" />
+                            <label for="excelFile" class="excelf">Upload Excel Sheet</label>
                         </form>
 
-                        <div class="upload__buttons">
-                            <input class="cert__input" id="imgFile" type="file" accept="image/*" />
-                            <label for="imgFile" class="btn"><i class="fa fa-upload fa-fw">Upload Company
-                                    Logo</i></label>
-                            <input class="cert__input" id="excelFile" type="file"
-                                accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
-                            <label for="excelFile" class="btn"><i>Upload Excel Sheet</i></label>
-                        </div>
+                        <button class="Generate">Generate Certificate</button>
                     </div>
-
                     <div class="col-1-of-2">
-                        <input id="imgFil" type="file" accept="image/*" />
+                        <input id="imgFile" type="file" accept="image/*" />
+                        <label for="imgFile" class="tempf">Choose Template</label>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
     </main>
 </body>
+<script src="/js/main.js"></script>
 
 </html>

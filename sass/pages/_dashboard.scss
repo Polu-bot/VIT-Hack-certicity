@@ -13,9 +13,10 @@
         left: 45%;
     }
 
-    &__d {
+    &__dd {
         padding-bottom: 0.5rem;
         opacity: .7;
+        border-bottom: 2px solid $color-button;
 
         &:hover {
             border-bottom: 2px solid $color-button;
@@ -26,7 +27,7 @@
         }
     }
 
-    &__g {
+    &__gg {
         opacity: .7;
         margin-left: 2rem;
         padding-bottom: 0.5rem;
