@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Cert</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="section-home">
+        <div class="section-home__navbar">
+            <img src="img/logo.png" alt="" class="section-home__navbar-logo">
+            <span class="section-home__navbar-text">Certicity</span>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2 align-img">
+                <img src="/img/cill2.svg" alt="" class="section-home-ill">
+            </div>
+
+            <div class="col-1-of-2">
+                <div class="form-box">
+                    <div class="logo-row">
+                        <img src="img/logo.png" alt="" class="logo">
+                    </div>
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="Username" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                        <input type="checkbox" class="check-box"><span>Remember Password</span>
+                        <a href="#" class="forgot-btn">Forgot Password?</a>
+                        <button class="submit-btn" type="submit">Log In</button>
+                    </form>
+
+                    <form id="register" class="input-group">
+                        <input type="text" class="input-field" placeholder="Username" required>
+                        <input type="email" class="input-field" placeholder="Email" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                        <button class="submit-btn" type="submit">Register</button>
+                    </form>
+
+                    <div class="div button-box-r button-box-l">
+                        <div id="btn"></div>
+                        <span class="s-text" id="s-text">Don't have an account?</span>
+                        <button type="button" class="toggle-btn-r" id="toggle-btn-r"
+                            onclick="register()">Register</button>
+                        <span class="l-text" id="l-text">Already an user?</span>
+                        <button type="button" class="toggle-btn-l" id="toggle-btn-l" onclick="login()">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

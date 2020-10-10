@@ -1,0 +1,16 @@
+.section-home {
+    height: 100%;
+    width: 100%;
+    
+    &-ill {
+        height: 58rem;
+        width: 60rem;
+        position: absolute;
+        top: 4rem;
+        left: 6.5rem;
+    }
+}
+
+.align-img {
+    position: relative;
+}
