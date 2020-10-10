@@ -75,13 +75,17 @@ a {
 
 .check-box {
     margin: 3rem 1rem 3rem 0;
+    position: absolute;
+    top: 2.5rem;
 }
 
-span {
+.remp{
     color: $color-white;
     font-size: 1.2rem;
     bottom: 8.5rem;
     position: absolute;
+    top: 11.8rem;
+    left: 3rem;
 }
 
 #login {
@@ -148,6 +152,7 @@ span {
     position: absolute;
     bottom: 1rem;
     left: -12rem;
+    color: white;
 }
 
 .l-text {
@@ -155,4 +160,12 @@ span {
     bottom: -1rem;
     left: -9.5rem;
     display: none;
+    color: white;
+}
+
+.tnc {
+    color: white;
+    position: absolute;
+    top: 16.7rem;
+    left: 3rem;
 }

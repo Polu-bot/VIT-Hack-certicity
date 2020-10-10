@@ -84,13 +84,17 @@ a {
   text-decoration: none; }
 
 .check-box {
-  margin: 3rem 1rem 3rem 0; }
+  margin: 3rem 1rem 3rem 0;
+  position: absolute;
+  top: 2.5rem; }
 
-span {
+.remp {
   color: #fff;
   font-size: 1.2rem;
   bottom: 8.5rem;
-  position: absolute; }
+  position: absolute;
+  top: 11.8rem;
+  left: 3rem; }
 
 #login {
   left: 5rem; }
@@ -147,13 +151,21 @@ span {
 .s-text {
   position: absolute;
   bottom: 1rem;
-  left: -12rem; }
+  left: -12rem;
+  color: white; }
 
 .l-text {
   position: absolute;
   bottom: -1rem;
   left: -9.5rem;
-  display: none; }
+  display: none;
+  color: white; }
+
+.tnc {
+  color: white;
+  position: absolute;
+  top: 16.7rem;
+  left: 3rem; }
 
 .section-home__navbar {
   font-family: 'Lato', sans-serif;
@@ -167,7 +179,8 @@ span {
     position: absolute;
     top: 35px;
     text-transform: uppercase;
-    font-size: 3rem; }
+    font-size: 3rem;
+    color: white; }
 
 a {
   color: aliceblue;
