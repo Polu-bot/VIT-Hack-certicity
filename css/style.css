@@ -194,3 +194,125 @@ a {
 
 .align-img {
   position: relative; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  flex-direction: row;
+  position: relative;
+  padding: 2rem;
+  font-size: 1.4rem; }
+  .nav__ul {
+    list-style: none;
+    position: absolute;
+    left: 45%; }
+  .nav__d {
+    padding-bottom: 0.5rem;
+    opacity: .7; }
+    .nav__d:hover {
+      border-bottom: 2px solid #E63950; }
+    .nav__d:active, .nav__d:focus {
+      border-bottom: 2px solid #E63950; }
+  .nav__g {
+    opacity: .7;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem; }
+    .nav__g:hover {
+      border-bottom: 2px solid #E63950; }
+    .nav__g:active, .nav__g:focus {
+      border-bottom: 2px solid #E63950; }
+  .nav__logo {
+    height: 4rem;
+    padding-top: 1rem;
+    padding-left: 1rem; }
+  .nav__user {
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    padding-right: 4rem; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  flex-direction: row;
+  position: relative;
+  padding: 2rem;
+  font-size: 1.4rem; }
+  .nav__ul {
+    list-style: none;
+    position: absolute;
+    left: 45%; }
+  .nav__d {
+    padding-bottom: 0.5rem;
+    opacity: .7; }
+    .nav__d:hover {
+      border-bottom: 2px solid #E63950; }
+    .nav__d:active, .nav__d:focus {
+      border-bottom: 2px solid #E63950; }
+  .nav__g {
+    opacity: .7;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem; }
+    .nav__g:hover {
+      border-bottom: 2px solid #E63950; }
+    .nav__g:active, .nav__g:focus {
+      border-bottom: 2px solid #E63950; }
+  .nav__logo {
+    height: 4rem;
+    padding-top: 1rem;
+    padding-left: 1rem; }
+  .nav__user {
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    padding-right: 4rem; }
+
+.check {
+  float: left; }
+
+.upload__container {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+  width: 720px;
+  max-width: 100%;
+  min-height: 300px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 180px auto; }
+
+.upload__buttons {
+  display: flex; }
+
+.form-c {
+  position: absolute;
+  transition: all 0.8s ease-in-out;
+  height: 100%;
+  top: 0; }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  padding: 0 50px; }
+
+input {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #E63950; }
+
+#imgFile {
+  display: none; }
+
+#excelFile {
+  display: none; }

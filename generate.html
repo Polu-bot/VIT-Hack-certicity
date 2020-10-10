@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main class="main">
+        <section class="nav">
+            <img src="/img/logo.png" alt="" class="nav__logo">
+            <ul class="nav__ul">
+                <li>
+                    <a href="/html/dashboard.html" class="nav__d">Dashboard</a>
+                    <a href="/generate.html" class="nav__g">Generate</a>
+                </li>
+            </ul>
+
+            <img src="img/add-user.png" class="nav__user">
+        </section>
+
+        <section class="upload">
+            <div class="upload__container">
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <form>
+                            <input type="text" id="fname" placeholder="Certificate Of...."><br>
+                            <input type="text" id="lname" placeholder="Presented By"><br>
+                            <input type="checkbox" class="check"><span>Send Certificate To Recipient By Mail</span>
+                        </form>
+
+                        <div class="upload__buttons">
+                            <input id="imgFile" type="file" accept="image/*" />
+                            <label for="imgFile" class="btn"><i class="fa fa-upload fa-fw">Upload Company
+                                    Logo</i></label>
+                            <input id="excelFile" type="file"
+                                accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                            <label for="excelFile" class="btn"><i>Upload Excel Sheet</i></label>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-2">
+                        <input id="imgFil" type="file" accept="image/*" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
