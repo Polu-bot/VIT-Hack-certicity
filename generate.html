@@ -27,17 +27,18 @@
             <div class="upload__container">
                 <div class="row">
                     <div class="col-1-of-2">
-                        <form>
-                            <input type="text" id="fname" placeholder="Certificate Of...."><br>
-                            <input type="text" id="lname" placeholder="Presented By"><br>
-                            <input type="checkbox" class="check"><span>Send Certificate To Recipient By Mail</span>
+                        <form class="cert__form">
+                            <input class="cert__input" type="text" id="fname" placeholder="Certificate Of...."><br>
+                            <input class="cert__input" type="text" id="lname" placeholder="Presented By"><br>
+                            <input class="cert__input" type="checkbox" class="check"><span>Send Certificate To Recipient
+                                By Mail</span>
                         </form>
 
                         <div class="upload__buttons">
-                            <input id="imgFile" type="file" accept="image/*" />
+                            <input class="cert__input" id="imgFile" type="file" accept="image/*" />
                             <label for="imgFile" class="btn"><i class="fa fa-upload fa-fw">Upload Company
                                     Logo</i></label>
-                            <input id="excelFile" type="file"
+                            <input class="cert__input" id="excelFile" type="file"
                                 accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
                             <label for="excelFile" class="btn"><i>Upload Excel Sheet</i></label>
                         </div>

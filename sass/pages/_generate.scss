@@ -85,7 +85,7 @@
     height: 100%;
     top:0;
 }
-form{
+.cert__form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ form{
     padding: 0 50px;
 }
 
-input{
+.cert__input{
     width:100%;
     background-color: white;
     //border-radius: 10px;
