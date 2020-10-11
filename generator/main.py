@@ -34,8 +34,9 @@ def generator(template, data, locations, font=None, font_size=None, font_color=(
 
     font = ImageFont.truetype("Kalam-Regular.ttf", 44)
 
-    for i in [1, len(data)-1]:
-        draw.text((locations[i][0], locations[i][1]), data[i], font_color, font=font)
+    for i in range(len(data)):
+        if i != 0:
+            draw.text((locations[i][0], locations[i][1]), data[i], font_color, font=font)
 
     # Check if output destination exists
     if not os.path.exists("issuedCertificates/"):
